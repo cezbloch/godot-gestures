@@ -1,9 +1,10 @@
 # Godot gestures
 
-This code is updated implementation of multi-touch tutorial from youtube by user 'gtrgn': 
-https://www.youtube.com/watch?v=NkC1-Z_2brI
+Implements sample gestures - sprite rotate and scale.
 
-Implements sample gestures.
+This code is updated implementation of multi-touch tutorial from youtube by user 'gtrgn':
+
+https://www.youtube.com/watch?v=NkC1-Z_2brI
 
 On Desktop machines touch emulation is turned on. It simulates touch events from mouse.
 It only emulates one touch point - seems like it can't emulate more. 

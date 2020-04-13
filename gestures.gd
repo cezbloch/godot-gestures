@@ -22,10 +22,7 @@ var dragging = false
 func _ready():
 	for x in range(MAX_POINTS):
 		points.append({pos=Vector2(), start_pos=Vector2(), state=false})
-		
-	set_process_input(true)
-	set_process(true)
-	
+			
 	connect("on_zoom", self, "scale_table")
 	connect("on_rotate", self, "rotate_table")
 
